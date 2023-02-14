@@ -121,19 +121,4 @@ void loop() {
 
   readMail();                    //Приём пакета данных от NanoPi (и пряма передача на моторы и сервы)
   
-  
-  
-    
-  
-
-  
-
-  //Напоминалка о работе со скоростью (wheelMode) и чтению
-  /*device.write(0x2E, makeSpeed(5000)); //DYN_ADDRESS_GOAL_SPEED
-  device.read(0x38, pos);
-  device.read(0x3A, vel);
-  Serial.print(pos);
-  Serial.print("   ");
-  Serial.println(vel);
-  delay(500);*/
 }
