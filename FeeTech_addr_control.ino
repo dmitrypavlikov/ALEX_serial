@@ -104,8 +104,8 @@ void setup()
   LW.write(0x1B, 0);          //DYN_ADDRESS_CCW_LIMIT
   RW.write(0x1B, 0);          //DYN_ADDRESS_CCW_LIMIT
   
-  LW.write(0x31, 1);          //wheel mode
-  RW.write(0x31, 1);          //wheel mode
+  LW.write(0x21, 1);          //wheel mode
+  RW.write(0x21, 1);          //wheel mode
 
   //Исходные положения и значения скоростей
   LW.write(0x2E, SPD_L);         //
